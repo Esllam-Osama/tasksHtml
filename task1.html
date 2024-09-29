@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <title>task 1</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container-fluid">
+      <div
+        class="alert alert-primary w-50 mx-auto mt-3 pb-0 text-center fw-bold"
+      >
+        <h1>Html Form Example..!</h1>
+        <p>
+          this is an example of an Html4 html 5 form containing various input
+          controls
+        </p>
+      </div>
+      <div>
+        <form action="" class="text-light">
+          <div class="border border-2 py-4 px-3 w-50 mx-auto rounded row">
+            <div class="alert alert-success w-75 text-center mx-auto">
+              <h3>User Information</h3>
+            </div>
+            <div class="mb-3 col-6">
+              <label for="firstName" class="form-label ms-1 fw-medium"
+                >First Name:</label
+              >
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                class="form-control"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="mb-3 col-6">
+              <label for="LastName" class="form-label ms-1 fw-medium"
+                >Last Name:</label
+              >
+              <input
+                type="text"
+                name="LastName"
+                id="LastName"
+                class="form-control"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="mb-3 col-12">
+              <label for="email" class="form-label ms-1 fw-medium"
+                >Email:</label
+              >
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="example@example.com"
+              />
+            </div>
+            <div class="mb-3 col-12">
+              <label for="pass" class="form-label ms-1 fw-medium"
+                >Password:</label
+              >
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                class="form-control"
+                placeholder="password"
+              />
+            </div>
+          </div>
+          <div class="border border-2 py-4 px-3 w-50 mx-auto rounded row mt-3">
+            <div class="alert alert-success w-75 text-center mx-auto">
+              <h3>Contact Information</h3>
+            </div>
+            <div class="mb-3 col-12">
+              <label for="email" class="form-label ms-1 fw-medium"
+                >Phone Number:</label
+              >
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="form-control"
+                placeholder="+20101237903"
+              />
+            </div>
+            <div class="mb-3 col-12">
+              <label for="msg" class="form-label ms-1 fw-medium">Msg:</label>
+              <textarea
+                id="msg"
+                name="msg"
+                placeholder="If you want contace us"
+                class="form-control"
+              ></textarea>
+            </div>
+          </div>
+          <div class="border border-2 py-4 px-3 w-50 mx-auto rounded row mt-3">
+            <div class="alert alert-success w-75 text-center mx-auto">
+              <h3>Subscription</h3>
+            </div>
+            <div class="mb-1 col-12">
+              <label for="check-1" class="form-label ms-1 fw-medium"
+                >subscription to newsletter:</label
+              >
+              <input type="checkbox" name="check-1" class="ms-1" id="check-1" />
+            </div>
+            <div class="mb-1 col-12">
+              <label for="check-2" class="form-label ms-1 fw-medium"
+                >subscription to newsletter:</label
+              >
+              <input type="checkbox" name="check-2" class="ms-1" id="check-2" />
+            </div>
+          </div>
+          <div class="border border-2 py-4 px-3 w-50 mx-auto rounded row mt-3">
+            <div class="alert alert-success w-75 text-center mx-auto">
+              <h3>Preferred Language</h3>
+            </div>
+            <div>
+              <label for="lang" class="form-label ms-1 fw-medium"
+                >Select your preferred language:</label
+              >
+              <select name="lang" class="ms-1 fw-medium" id="lang">
+                <option value="English" class="fw-medium">English</option>
+                <option value="English" class="fw-medium">Spanish</option>
+                <option value="English" class="fw-medium">German</option>
+              </select>
+            </div>
+          </div>
+          <div class="border border-2 py-4 px-3 w-50 mx-auto rounded row mt-3">
+            <div class="alert alert-success w-75 text-center mx-auto">
+              <h3>Feedback</h3>
+            </div>
+            <div class="mb-1 col-12">
+              <label for="rate" class="form-label ms-1 fw-medium"
+                >Rate our service:</label
+              >
+              <input type="range" name="rate" class="ms-1" id="rate" />
+            </div>
+          </div>
+          <div class="text-center my-4">
+            <input type="submit" value="Submit.!" class="btn btn-outline-primary fw-bold ">
+            <button class="btn btn-outline-danger fw-bold px-3 ms-4">Reset..!</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
